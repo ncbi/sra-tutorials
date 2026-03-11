@@ -1,4 +1,4 @@
-# *Getting Started with Using SRA*
+# *Getting Started with Using the Sequence Read Archive*
 ## Practical Guides to using SRA Lite and Cloud-Optimized Data Formats
 
 ### TUTORIAL MATERIALS
