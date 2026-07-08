@@ -1,12 +1,12 @@
 # Search, Download, and Analyze SRA Data
 
-In this module, we will walk through tools for working with public data from the Sequence Read Archive (SRA).
+In these modules, we will walk through tools for working with public data from the Sequence Read Archive (SRA).
 
 The goal is to show how you can move from finding relevant SRA records, to retrieving sequence data, to running a basic downstream analysis.
 
+**Note!** These demo exercises were designed for use in a Jupyter Environment, hence why they are provided in `.ipnyb` format. That said, you can still use them as reference for your own scripts and coding straight into the Terminal.
 
 ---
-
 
 ### 1. DuckDB
 
