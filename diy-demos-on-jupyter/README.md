@@ -17,10 +17,12 @@ By completing these exercises, you should have a better understanding of how the
 
 ### 1. DuckDB
 
-Query SRA metadata using [DuckDB](https://duckdb.org/) to search and filter SRA metadata.
+Use [DuckDB](https://duckdb.org/) to search and filter large SRA metadata files with SQL, in order to reduce memory use, data movement, and compute cost.
 
-- Query and inspect SRA metadata
-- Filter runs to identify accessions that may be useful for downstream work
+- Query SRA metadata using SQL
+- Select only the columns needed for an analysis
+- Filter records before loading results into memory
+- Identify SRA run accessions for downstream analysis
 
 ### 2. SRA Toolkit
 
