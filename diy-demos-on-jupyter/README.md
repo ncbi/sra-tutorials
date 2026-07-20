@@ -17,14 +17,14 @@ By completing these exercises, you should have a better understanding of how the
 
 ### 1. DuckDB
 
-**Query SRA metadata.** Use [DuckDB](https://duckdb.org/) to search and filter SRA metadata.
+Query SRA metadata using [DuckDB](https://duckdb.org/) to search and filter SRA metadata.
 
 - Query and inspect SRA metadata
 - Filter runs to identify accessions that may be useful for downstream work
 
 ### 2. SRA Toolkit
 
-**Download SRA data.** Use the [SRA Toolkit](https://github.com/ncbi/sra-tools) to retrieve sequence data.
+Download SRA data using the [SRA Toolkit](https://github.com/ncbi/sra-tools) to retrieve sequence data.
 
 - Inspect an SRA accession
 - Download SRA data
@@ -32,14 +32,14 @@ By completing these exercises, you should have a better understanding of how the
 
 ### 3. SRA Taxonomy Analysis Tool
 
-**Explore sample taxonomy.** Use the [SRA Taxonomy Analysis Tool (STAT)](https://www.ncbi.nlm.nih.gov/sra/docs/sra-taxonomy-analysis-tool/) to perform a small taxonomy-based analysis.
+Explore sample taxonomy using the [SRA Taxonomy Analysis Tool (STAT)](https://www.ncbi.nlm.nih.gov/sra/docs/sra-taxonomy-analysis-tool/) to perform a small taxonomy-based analysis.
 
 - Summarize sequence content using k-mer-based taxonomic information
 - Screen for and remove human reads from a FASTQ file
 
 ### 4. NCBI Gene and GeneID
 
-**Retrieve gene-centered information.** Use [NCBI Gene](https://www.ncbi.nlm.nih.gov/datasets/gene/) and NCBI GeneIDs to look up gene records and retrieve related metadata and sequence information.
+Retrieve gene-centered information using [NCBI Gene](https://www.ncbi.nlm.nih.gov/datasets/gene/) and NCBI GeneIDs to look up gene records and retrieve related metadata and sequence information.
 
 - Find genes by symbol, GeneID, or RefSeq accession
 - Review gene metadata and associated transcript or protein accessions
