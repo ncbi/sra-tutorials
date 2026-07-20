@@ -1,23 +1,30 @@
 # Search, Download, and Analyze SRA Data
 
-In these modules, we will walk through tools for working with public data from the Sequence Read Archive (SRA).
+These Jupyter-based demos introduce tools for working with public data from the Sequence Read Archive (SRA).
 
-The goal is to show how you can move from finding relevant SRA records, to retrieving sequence data, to running a basic downstream analysis.
+The core workflow shows how to move from finding relevant SRA records, to retrieving sequence data, to performing a basic downstream analysis.
 
-**Note!** These demo exercises were designed for use in a Jupyter Environment, hence why they are provided in `.ipnyb` format. That said, you can still use them as reference for your own scripts and coding straight into the Terminal.
+A fourth, complementary demo shows how to retrieve gene-centered information using NCBI GeneIDs.
+
+> **Note**
+> These exercises are provided as `.ipynb` notebooks and are designed for a Jupyter environment. The commands and examples can also be adapted for scripts or run directly in a terminal.
+
+By completing these exercises, you should have a better understanding of how these tools fit together and how they can support practical work with public sequencing data.
 
 ---
 
+## Demos
+
 ### 1. DuckDB
 
-*Query SRA metadata -* We can use [DuckDB](https://duckdb.org/) to search and filter SRA metadata.
+**Query SRA metadata.** Use [DuckDB](https://duckdb.org/) to search and filter SRA metadata.
 
-- Query SRA metadata
-- Filter runs to identify accessions that may be useful downstream
+- Query and inspect SRA metadata
+- Filter runs to identify accessions that may be useful for downstream work
 
-### 2. SRA Toolkit 
+### 2. SRA Toolkit
 
-*Download SRA data -* We can use the [SRA Toolkit](https://github.com/ncbi/sra-tools) to retrieve sequence data.
+**Download SRA data.** Use the [SRA Toolkit](https://github.com/ncbi/sra-tools) to retrieve sequence data.
 
 - Inspect an SRA accession
 - Download SRA data
@@ -25,20 +32,17 @@ The goal is to show how you can move from finding relevant SRA records, to retri
 
 ### 3. SRA Taxonomy Analysis Tool
 
-*Explore sample taxonomy -* We can use [STAT]((https://www.ncbi.nlm.nih.gov/sra/docs/sra-taxonomy-analysis-tool/)) to run a small taxonomy-based analysis.
+**Explore sample taxonomy.** Use the [SRA Taxonomy Analysis Tool (STAT)](https://www.ncbi.nlm.nih.gov/sra/docs/sra-taxonomy-analysis-tool/) to perform a small taxonomy-based analysis.
 
-- Use k-mer-based taxonomy info to summarize sequence content
-- Scrub human data from a FASTQ file
+- Summarize sequence content using k-mer-based taxonomic information
+- Screen for and remove human reads from a FASTQ file
 
+### 4. NCBI Gene and GeneID
+
+**Retrieve gene-centered information.** Use [NCBI Gene](https://www.ncbi.nlm.nih.gov/datasets/gene/) and NCBI GeneIDs to look up gene records and retrieve related metadata and sequence information.
+
+- Find genes by symbol, GeneID, or RefSeq accession
+- Review gene metadata and associated transcript or protein accessions
+- Retrieve gene-centered records for reference or follow-up analysis
 
 ---
-
-### Conclusion 
-
-Together, these modules act as a basic workflow for working with SRA data:
-
-1. Find relevant records using SRA metadata  
-2. Download selected data using the SRA Toolkit  
-3. Analyze sequence content using a downstream tool like STAT  
-
-By running through these exercises, you should have a better understanding of how these tools fit together and how they can support practical work with public sequencing data.
