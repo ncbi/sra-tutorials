@@ -4,7 +4,7 @@ These Jupyter-based demos introduce tools for working with public data from the 
 
 The core workflow shows how to move from finding relevant SRA records, to retrieving sequence data, to performing a basic downstream analysis.
 
-A fourth, complementary demo shows how to retrieve gene-centered information using NCBI GeneIDs.
+A fourth demo shows how to retrieve gene-centered information using NCBI GeneIDs.
 
 > **Note**
 > These exercises are provided as `.ipynb` notebooks and are designed for a Jupyter environment. The commands and examples can also be adapted for scripts or run directly in a terminal.
@@ -17,7 +17,7 @@ By completing these exercises, you should have a better understanding of how the
 
 ### 1. DuckDB
 
-Use [DuckDB](https://duckdb.org/) to search and filter large SRA metadata files with SQL in order to reduce memory use, data movement, and compute cost.
+Use [DuckDB](https://duckdb.org/) to search and filter large SRA metadata files with SQL in order to reduce memory use, data download, and compute cost.
 
 - Query SRA metadata using SQL
 - Select only the columns needed for an analysis
